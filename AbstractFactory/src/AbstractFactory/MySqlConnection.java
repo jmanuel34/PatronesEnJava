@@ -1,6 +1,8 @@
-package factory;
+package AbstractFactory;
 
-public class MySqlConnection implements IConnection{
+import inter.IDbConnection;
+
+public class MySqlConnection implements IDbConnection{
 	
 	private String host;
 	private String port;

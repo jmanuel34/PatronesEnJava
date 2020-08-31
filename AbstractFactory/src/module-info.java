@@ -1,0 +1,3 @@
+module AbstractFactory {
+	exports AbstractFactory;
+}

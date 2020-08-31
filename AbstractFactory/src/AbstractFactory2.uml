@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_zwK7cOunEeqNGcw2hM7yiA" name="AbstractFactory2">
+    <eAnnotations xmi:id="_zzXZYOunEeqNGcw2hM7yiA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_zzXZYeunEeqNGcw2hM7yiA" source="codegen">
+        <details xmi:id="_zzXZYuunEeqNGcw2hM7yiA" key="codegenDirectory" value="/AbstractFactory/src"/>
+        <details xmi:id="_z8AYAOunEeqNGcw2hM7yiA" key="AssociatedSourceCode" value="/AbstractFactory/src/AbstractFactory/Appp.java;2539360985/1;/AbstractFactory/src/AbstractFactory/EmptyConnection.java;114513186/1;/AbstractFactory/src/AbstractFactory/MySqlConnection.java;2343917679/1;/AbstractFactory/src/AbstractFactory/OracleConnection.java;1747836587/1;/AbstractFactory/src/AbstractFactory/PostgreSqlConnection.java;370315121/1;/AbstractFactory/src/AbstractFactory/RestConnectionCompras.java;3429828703/1;/AbstractFactory/src/AbstractFactory/RestConnectionNoArea.java;1780086780/1;/AbstractFactory/src/AbstractFactory/RestConnectionVentas.java;4103591393/1;/AbstractFactory/src/fact/AbstractFactory.java;3611909440/1;/AbstractFactory/src/fact/FactoryConnDb.java;3869273885/1;/AbstractFactory/src/fact/FactoryConnRest.java;2588850150/1;/AbstractFactory/src/fact/FactoryProducer.java;48547487/1;/AbstractFactory/src/inter/IDbConnection.java;1852882239/1;/AbstractFactory/src/inter/IRestConnection.java;4157434358/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_z4d70OunEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei4OunEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei4eunEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei4uunEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei4-unEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei5OunEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei5eunEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei5uunEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_z4ei5-unEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4fJ8OunEeqNGcw2hM7yiA" name="fact">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_z44ykuunEeqNGcw2hM7yiA" name="AbstractFactory">
+        <ownedOperation xmi:id="_z45ZoOunEeqNGcw2hM7yiA" name="getDB">
+          <ownedParameter xmi:id="_z45ZoeunEeqNGcw2hM7yiA" name="motor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5R0IOunEeqNGcw2hM7yiA" type="_z4_gQOunEeqNGcw2hM7yiA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_z45ZouunEeqNGcw2hM7yiA" name="getRest">
+          <ownedParameter xmi:id="_z45Zo-unEeqNGcw2hM7yiA" name="area">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5R0IeunEeqNGcw2hM7yiA" type="_z4_gQ-unEeqNGcw2hM7yiA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z46AsOunEeqNGcw2hM7yiA" name="FactoryConnDb">
+        <interfaceRealization xmi:id="_z5R0IuunEeqNGcw2hM7yiA" client="_z46AsOunEeqNGcw2hM7yiA" supplier="_z44ykuunEeqNGcw2hM7yiA" contract="_z44ykuunEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5fPgOunEeqNGcw2hM7yiA" name="getDB" specification="_z46nwOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5fPgeunEeqNGcw2hM7yiA" name="motor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5fPguunEeqNGcw2hM7yiA" type="_z4_gQOunEeqNGcw2hM7yiA" direction="return"/>
+          <language>java</language>
+          <body>if (motor == null) {
+			return new EmptyConnection();
+		}
+		else if (motor.equalsIgnoreCase(&quot;ORACLE&quot;)) {
+			return new OracleConnection();
+		}
+		else if (motor.equalsIgnoreCase(&quot;MYSQL&quot;)) {
+			return new MySqlConnection();
+		}
+		else if (motor.equalsIgnoreCase(&quot;POSTGRESQL&quot;)) {
+			return new PostgreSqlConnection();
+		}
+		return new EmptyConnection();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5fPg-unEeqNGcw2hM7yiA" name="getRest" specification="_z47O0OunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5fPhOunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5fPheunEeqNGcw2hM7yiA" type="_z4_gQ-unEeqNGcw2hM7yiA" direction="return"/>
+          <language>java</language>
+          <body>return null;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z46nwOunEeqNGcw2hM7yiA" name="getDB" method="_z5fPgOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z46nweunEeqNGcw2hM7yiA" name="motor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5R0I-unEeqNGcw2hM7yiA" type="_z4_gQOunEeqNGcw2hM7yiA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_z47O0OunEeqNGcw2hM7yiA" name="getRest" method="_z5fPg-unEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z47O0eunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5SbMOunEeqNGcw2hM7yiA" type="_z4_gQ-unEeqNGcw2hM7yiA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z4714OunEeqNGcw2hM7yiA" name="FactoryConnRest">
+        <interfaceRealization xmi:id="_z5SbMeunEeqNGcw2hM7yiA" client="_z4714OunEeqNGcw2hM7yiA" supplier="_z44ykuunEeqNGcw2hM7yiA" contract="_z44ykuunEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5fPhuunEeqNGcw2hM7yiA" name="getDB" specification="_z48c8OunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5fPh-unEeqNGcw2hM7yiA" name="motor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5fPiOunEeqNGcw2hM7yiA" type="_z4_gQOunEeqNGcw2hM7yiA" direction="return"/>
+          <language>java</language>
+          <body>return null;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5fPieunEeqNGcw2hM7yiA" name="getRest" specification="_z49EAuunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5fPiuunEeqNGcw2hM7yiA" name="area">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5fPi-unEeqNGcw2hM7yiA" type="_z4_gQ-unEeqNGcw2hM7yiA" direction="return"/>
+          <language>java</language>
+          <body>if (area ==null) {
+			return new RestConnectionNoArea();
+		}
+		else if (area.equalsIgnoreCase(&quot;Compras&quot;)) {
+				return new RestConnectionCompras();
+		}
+		else if (area.equalsIgnoreCase(&quot;Ventas&quot;)) {
+			return new RestConnectionVentas();
+		}
+		else {
+			return null;
+		}
+			
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z48c8OunEeqNGcw2hM7yiA" name="getDB" method="_z5fPhuunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z48c8eunEeqNGcw2hM7yiA" name="motor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5SbMuunEeqNGcw2hM7yiA" type="_z4_gQOunEeqNGcw2hM7yiA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_z49EAuunEeqNGcw2hM7yiA" name="getRest" method="_z5fPieunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z49EA-unEeqNGcw2hM7yiA" name="area">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5SbM-unEeqNGcw2hM7yiA" type="_z4_gQ-unEeqNGcw2hM7yiA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z4-SIOunEeqNGcw2hM7yiA" name="FactoryProducer">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5fPjOunEeqNGcw2hM7yiA" name="getFactory" specification="_z4-5MOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5fPjeunEeqNGcw2hM7yiA" name="factoryType">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5fPjuunEeqNGcw2hM7yiA" type="_z44ykuunEeqNGcw2hM7yiA" direction="return"/>
+          <language>java</language>
+          <body>if (factoryType.equalsIgnoreCase(&quot;DB&quot;)) {
+				return new FactoryConnDb();
+			}
+			else if (factoryType.equalsIgnoreCase(&quot;Rest&quot;)) {
+				return new FactoryConnRest();
+			}
+			else return null;
+		</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z4-5MOunEeqNGcw2hM7yiA" name="getFactory" isStatic="true" method="_z5fPjOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z4-5MeunEeqNGcw2hM7yiA" name="factoryType">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_z5TCQOunEeqNGcw2hM7yiA" type="_z44ykuunEeqNGcw2hM7yiA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4fxAOunEeqNGcw2hM7yiA" name="inter">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_z4_gQOunEeqNGcw2hM7yiA" name="IDbConnection">
+        <ownedOperation xmi:id="_z4_gQeunEeqNGcw2hM7yiA" name="connect"/>
+        <ownedOperation xmi:id="_z4_gQuunEeqNGcw2hM7yiA" name="disconnect"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_z4_gQ-unEeqNGcw2hM7yiA" name="IRestConnection">
+        <ownedOperation xmi:id="_z5AHUOunEeqNGcw2hM7yiA" name="leerUrl">
+          <ownedParameter xmi:id="_z5AHUeunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z4fxAeunEeqNGcw2hM7yiA" name="AbstractFactory">
+      <packagedElement xmi:type="uml:Class" xmi:id="_z4vooOunEeqNGcw2hM7yiA" name="Appp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5daUOunEeqNGcw2hM7yiA" name="main" specification="_z4wPsOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5daUeunEeqNGcw2hM7yiA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z5daUuunEeqNGcw2hM7yiA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub
+		AbstractFactory factoryDb =  FactoryProducer.getFactory(&quot;DB&quot;);
+		IDbConnection cxDb1 = factoryDb.getDB(&quot;ORACLE&quot;);
+		cxDb1.connect();
+		
+		AbstractFactory factoryRest = FactoryProducer.getFactory(&quot;REST&quot;);
+		IRestConnection cxRe1 = factoryRest.getRest(&quot;COMPRAS&quot;);
+		cxRe1.leerUrl(&quot;http://www.avilis.net&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z4wPsOunEeqNGcw2hM7yiA" name="main" isStatic="true" method="_z5daUOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z4wPseunEeqNGcw2hM7yiA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z4wPsuunEeqNGcw2hM7yiA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z4w2wOunEeqNGcw2hM7yiA" name="EmptyConnection">
+        <interfaceRealization xmi:id="_z5PX4OunEeqNGcw2hM7yiA" client="_z4w2wOunEeqNGcw2hM7yiA" supplier="_z4_gQOunEeqNGcw2hM7yiA" contract="_z4_gQOunEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5daU-unEeqNGcw2hM7yiA" name="connect" specification="_z4w2weunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot; Proveedor no especificado&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eBYOunEeqNGcw2hM7yiA" name="disconnect" specification="_z4xd0uunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot; Proveedor no especificado&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z4w2weunEeqNGcw2hM7yiA" name="connect" method="_z5daU-unEeqNGcw2hM7yiA"/>
+        <ownedOperation xmi:id="_z4xd0uunEeqNGcw2hM7yiA" name="disconnect" method="_z5eBYOunEeqNGcw2hM7yiA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z4yE4OunEeqNGcw2hM7yiA" name="MySqlConnection">
+        <ownedAttribute xmi:id="_z5TpUOunEeqNGcw2hM7yiA" name="host" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5UQYeunEeqNGcw2hM7yiA" name="port" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5U3ceunEeqNGcw2hM7yiA" name="user" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5Zv8eunEeqNGcw2hM7yiA" name="password" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_z5PX4eunEeqNGcw2hM7yiA" client="_z4yE4OunEeqNGcw2hM7yiA" supplier="_z4_gQOunEeqNGcw2hM7yiA" contract="_z4_gQOunEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eBYeunEeqNGcw2hM7yiA" name="PostgreSqlConnection" specification="_z4yr8OunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>this.host = &quot;localhost&quot;;
+		this.port = &quot;3306&quot;;
+		this.user = &quot;root&quot;;
+		this.password = &quot;root&quot;;		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eBYuunEeqNGcw2hM7yiA" name="connect" specification="_z4yr8eunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot;Conectado a Mysql&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eBY-unEeqNGcw2hM7yiA" name="disconnect" specification="_z4yr8uunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot;Desconectado de MySql&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z4yr8OunEeqNGcw2hM7yiA" name="PostgreSqlConnection" method="_z5eBYeunEeqNGcw2hM7yiA"/>
+        <ownedOperation xmi:id="_z4yr8eunEeqNGcw2hM7yiA" name="connect" method="_z5eBYuunEeqNGcw2hM7yiA"/>
+        <ownedOperation xmi:id="_z4yr8uunEeqNGcw2hM7yiA" name="disconnect" method="_z5eBY-unEeqNGcw2hM7yiA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z4zTAOunEeqNGcw2hM7yiA" name="OracleConnection">
+        <ownedAttribute xmi:id="_z5aXAeunEeqNGcw2hM7yiA" name="host" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5a-EOunEeqNGcw2hM7yiA" name="port" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5a-EuunEeqNGcw2hM7yiA" name="user" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5blIOunEeqNGcw2hM7yiA" name="password" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_z5P-8OunEeqNGcw2hM7yiA" client="_z4zTAOunEeqNGcw2hM7yiA" supplier="_z4_gQOunEeqNGcw2hM7yiA" contract="_z4_gQOunEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eBZOunEeqNGcw2hM7yiA" name="PostgreSqlConnection" specification="_z4z6EOunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>this.host = &quot;localhost&quot;;
+		this.port = &quot;1521&quot;;
+		this.user = &quot;admin&quot;;
+		this.password = &quot;123&quot;;		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eBZeunEeqNGcw2hM7yiA" name="connect" specification="_z4z6EeunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot;Conectado a Oracle&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eBZuunEeqNGcw2hM7yiA" name="disconnect" specification="_z4z6EuunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot;Desconectado de Oracle&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z4z6EOunEeqNGcw2hM7yiA" name="PostgreSqlConnection" method="_z5eBZOunEeqNGcw2hM7yiA"/>
+        <ownedOperation xmi:id="_z4z6EeunEeqNGcw2hM7yiA" name="connect" method="_z5eBZeunEeqNGcw2hM7yiA"/>
+        <ownedOperation xmi:id="_z4z6EuunEeqNGcw2hM7yiA" name="disconnect" method="_z5eBZuunEeqNGcw2hM7yiA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z40hIOunEeqNGcw2hM7yiA" name="PostgreSqlConnection">
+        <ownedAttribute xmi:id="_z5blIuunEeqNGcw2hM7yiA" name="host" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5cMMeunEeqNGcw2hM7yiA" name="port" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5cMM-unEeqNGcw2hM7yiA" name="user" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_z5czQeunEeqNGcw2hM7yiA" name="password" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_z5QmAOunEeqNGcw2hM7yiA" client="_z40hIOunEeqNGcw2hM7yiA" supplier="_z4_gQOunEeqNGcw2hM7yiA" contract="_z4_gQOunEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eocOunEeqNGcw2hM7yiA" name="PostgreSqlConnection" specification="_z41IMOunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>this.host = &quot;localhost&quot;;
+		this.port = &quot;5433&quot;;
+		this.user = &quot;postgres&quot;;
+		this.password = &quot;123&quot;;		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eoceunEeqNGcw2hM7yiA" name="connect" specification="_z41IMeunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot;Conectado a Postgre Sql&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eocuunEeqNGcw2hM7yiA" name="disconnect" specification="_z41IMuunEeqNGcw2hM7yiA">
+          <language>java</language>
+          <body>System.out.println (&quot;Desconectado de Postgre Sql&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z41IMOunEeqNGcw2hM7yiA" name="PostgreSqlConnection" method="_z5eocOunEeqNGcw2hM7yiA"/>
+        <ownedOperation xmi:id="_z41IMeunEeqNGcw2hM7yiA" name="connect" method="_z5eoceunEeqNGcw2hM7yiA"/>
+        <ownedOperation xmi:id="_z41IMuunEeqNGcw2hM7yiA" name="disconnect" method="_z5eocuunEeqNGcw2hM7yiA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z41vQOunEeqNGcw2hM7yiA" name="RestConnectionCompras">
+        <interfaceRealization xmi:id="_z5RNEOunEeqNGcw2hM7yiA" client="_z41vQOunEeqNGcw2hM7yiA" supplier="_z4_gQ-unEeqNGcw2hM7yiA" contract="_z4_gQ-unEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eoc-unEeqNGcw2hM7yiA" name="leerUrl" specification="_z42WUOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5eodOunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println (&quot;Conectadose a: &quot;+url);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z42WUOunEeqNGcw2hM7yiA" name="leerUrl" method="_z5eoc-unEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z42WUeunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z429YuunEeqNGcw2hM7yiA" name="RestConnectionNoArea">
+        <interfaceRealization xmi:id="_z5RNEeunEeqNGcw2hM7yiA" client="_z429YuunEeqNGcw2hM7yiA" supplier="_z4_gQ-unEeqNGcw2hM7yiA" contract="_z4_gQ-unEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eodeunEeqNGcw2hM7yiA" name="leerUrl" specification="_z43kcOunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5eoduunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println (&quot;Area no elegida&quot;);
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z43kcOunEeqNGcw2hM7yiA" name="leerUrl" method="_z5eodeunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z43kceunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z44LgOunEeqNGcw2hM7yiA" name="RestConnectionVentas">
+        <interfaceRealization xmi:id="_z5RNEuunEeqNGcw2hM7yiA" client="_z44LgOunEeqNGcw2hM7yiA" supplier="_z4_gQ-unEeqNGcw2hM7yiA" contract="_z4_gQ-unEeqNGcw2hM7yiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_z5eod-unEeqNGcw2hM7yiA" name="leerUrl" specification="_z44LgeunEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z5eoeOunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println (&quot;Conectandose a Compras en: &quot;+url);
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_z44LgeunEeqNGcw2hM7yiA" name="leerUrl" method="_z5eod-unEeqNGcw2hM7yiA">
+          <ownedParameter xmi:id="_z44LguunEeqNGcw2hM7yiA" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_zzYAcOunEeqNGcw2hM7yiA">
+      <eAnnotations xmi:id="_zzYAceunEeqNGcw2hM7yiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_zzYAcuunEeqNGcw2hM7yiA" base_Package="_zwK7cOunEeqNGcw2hM7yiA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z4w2wuunEeqNGcw2hM7yiA" base_Element="_z4w2weunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z4xd0OunEeqNGcw2hM7yiA" base_Element="_z4w2weunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z4xd0eunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z4xd0-unEeqNGcw2hM7yiA" base_Element="_z4xd0uunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z4xd1OunEeqNGcw2hM7yiA" base_Element="_z4xd0uunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z4xd1eunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z42WUuunEeqNGcw2hM7yiA" base_Element="_z42WUOunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z429YOunEeqNGcw2hM7yiA" base_Element="_z42WUOunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z429YeunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z43kcuunEeqNGcw2hM7yiA" base_Element="_z43kcOunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z43kc-unEeqNGcw2hM7yiA" base_Element="_z43kcOunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z43kdOunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z44Lg-unEeqNGcw2hM7yiA" base_Element="_z44LgeunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z44ykOunEeqNGcw2hM7yiA" base_Element="_z44LgeunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z44ykeunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z46nwuunEeqNGcw2hM7yiA" base_Element="_z46nwOunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z46nw-unEeqNGcw2hM7yiA" base_Element="_z46nwOunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z46nxOunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z47O0uunEeqNGcw2hM7yiA" base_Element="_z47O0OunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z47O0-unEeqNGcw2hM7yiA" base_Element="_z47O0OunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z47O1OunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z48c8uunEeqNGcw2hM7yiA" base_Element="_z48c8OunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z49EAOunEeqNGcw2hM7yiA" base_Element="_z48c8OunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z49EAeunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z49rEOunEeqNGcw2hM7yiA" base_Element="_z49EAuunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Annotations xmi:id="_z49rEeunEeqNGcw2hM7yiA" base_Element="_z49EAuunEeqNGcw2hM7yiA">
+    <annotations xmi:id="_z49rEuunEeqNGcw2hM7yiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5UQYOunEeqNGcw2hM7yiA" base_Element="_z5TpUOunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5U3cOunEeqNGcw2hM7yiA" base_Element="_z5UQYeunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5Zv8OunEeqNGcw2hM7yiA" base_Element="_z5U3ceunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5aXAOunEeqNGcw2hM7yiA" base_Element="_z5Zv8eunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5aXAuunEeqNGcw2hM7yiA" base_Element="_z5aXAeunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5a-EeunEeqNGcw2hM7yiA" base_Element="_z5a-EOunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5a-E-unEeqNGcw2hM7yiA" base_Element="_z5a-EuunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5blIeunEeqNGcw2hM7yiA" base_Element="_z5blIOunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5cMMOunEeqNGcw2hM7yiA" base_Element="_z5blIuunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5cMMuunEeqNGcw2hM7yiA" base_Element="_z5cMMeunEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5czQOunEeqNGcw2hM7yiA" base_Element="_z5cMM-unEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z5czQuunEeqNGcw2hM7yiA" base_Element="_z5czQeunEeqNGcw2hM7yiA"/>
+</xmi:XMI>
