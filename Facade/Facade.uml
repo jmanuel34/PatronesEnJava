@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ItI0sO4FEeqNGcw2hM7yiA" name="Facade">
+    <eAnnotations xmi:id="_Izbp8O4FEeqNGcw2hM7yiA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Izbp8e4FEeqNGcw2hM7yiA" source="codegen">
+        <details xmi:id="_Izbp8u4FEeqNGcw2hM7yiA" key="codegenDirectory" value="/Facade/src"/>
+        <details xmi:id="_Izc4EO4FEeqNGcw2hM7yiA" key="observedFolders" value="/Facade/src"/>
+        <details xmi:id="_O40T0O4FEeqNGcw2hM7yiA" key="AssociatedSourceCode" value="/Facade/src/com/avilis/patrones/facade/App.java;2706855980/1;/Facade/src/com/avilis/patrones/facade/CheckFacade.java;2106107542/1;/Facade/src/com/avilis/patrones/facade/api/AvionApi.java;3868830245/1;/Facade/src/com/avilis/patrones/facade/api/HotelApi.java;3509399605/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Oz-QEe4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-QEu4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-QE-4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-QFO4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-3IO4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-3Ie4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-3Iu4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-3I-4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Oz-3JO4FEeqNGcw2hM7yiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_gs-R8O4FEeqNGcw2hM7yiA" name="facade"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mJCAEO4HEeqNGcw2hM7yiA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_mJCAEe4HEeqNGcw2hM7yiA" name="avilis">
+        <packagedElement xmi:type="uml:Package" xmi:id="_mJCAEu4HEeqNGcw2hM7yiA" name="patrones">
+          <packagedElement xmi:type="uml:Package" xmi:id="_mJCnIO4HEeqNGcw2hM7yiA" name="facade">
+            <packagedElement xmi:type="uml:Package" xmi:id="_xf0SIO4HEeqNGcw2hM7yiA" name="api">
+              <packagedElement xmi:type="uml:Class" xmi:id="_xf05MO4HEeqNGcw2hM7yiA" name="AvionApi">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZRphIO4LEeqNGcw2hM7yiA" name="buscarVuelos" specification="_ZRo6EO4LEeqNGcw2hM7yiA">
+                  <ownedParameter xmi:id="_ZRphIe4LEeqNGcw2hM7yiA" name="fechaIda">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_ZRphIu4LEeqNGcw2hM7yiA" name="fechaVuelta">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_ZRphI-4LEeqNGcw2hM7yiA" name="origen">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_ZRphJO4LEeqNGcw2hM7yiA" name="destino">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>// TODO Auto-generated method stub
+		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_ZRo6EO4LEeqNGcw2hM7yiA" name="buscarVuelos" method="_ZRphIO4LEeqNGcw2hM7yiA">
+                  <ownedParameter xmi:id="_ZRo6Ee4LEeqNGcw2hM7yiA" name="fechaIda">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_ZRo6Eu4LEeqNGcw2hM7yiA" name="fechaVuelta">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_ZRo6E-4LEeqNGcw2hM7yiA" name="origen">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_ZRo6FO4LEeqNGcw2hM7yiA" name="destino">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_p_6VkO4IEeqNGcw2hM7yiA" name="HotelApi">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_V29N1O4JEeqNGcw2hM7yiA" name="buscarHoteles" specification="_V29N0O4JEeqNGcw2hM7yiA">
+                  <ownedParameter xmi:id="_V29N1e4JEeqNGcw2hM7yiA" name="fechaEntrada">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_V29N1u4JEeqNGcw2hM7yiA" name="fechaSalida">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_V29N1-4JEeqNGcw2hM7yiA" name="localidad">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;====================&quot;);
+		
+		System.out.println (&quot;Fecha Entrada: &quot;+ fechaEntrada+&quot; fechaSalida &quot;+fechaSalida);
+		System.out.println(&quot;Vuelos encontrados para &quot;+ localidad);
+		System.out.println (&quot;Hotel A&quot;);
+		System.out.println (&quot;Hotel B&quot;);
+		System.out.println (&quot;Hotel C&quot;);
+		System.out.println(&quot;====================&quot;);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_V29N0O4JEeqNGcw2hM7yiA" name="buscarHoteles" method="_V29N1O4JEeqNGcw2hM7yiA">
+                  <ownedParameter xmi:id="_V29N0e4JEeqNGcw2hM7yiA" name="fechaEntrada">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_V29N0u4JEeqNGcw2hM7yiA" name="fechaSalida">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_V29N0-4JEeqNGcw2hM7yiA" name="localidad">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_mJCnIe4HEeqNGcw2hM7yiA" name="App">
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mJD1QO4HEeqNGcw2hM7yiA" name="main" specification="_mJDOMO4HEeqNGcw2hM7yiA">
+                <ownedParameter xmi:id="_mJD1Qe4HEeqNGcw2hM7yiA" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mJD1Qu4HEeqNGcw2hM7yiA" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>CheckFacade cliente1 = new CheckFacade();
+		cliente1.buscar(&quot;20/08/2020&quot;, &quot;25/08/2020&quot;, &quot;Madrid&quot;, &quot;Ciudad de Guatemala&quot;);
+		CheckFacade cliente2 = new CheckFacade();
+		cliente1.buscar(&quot;20/08/2020&quot;, &quot;05/12/2020&quot;, &quot;Madrid&quot;, &quot;San Jose&quot;);
+
+
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_mJDOMO4HEeqNGcw2hM7yiA" name="main" isStatic="true" method="_mJD1QO4HEeqNGcw2hM7yiA">
+                <ownedParameter xmi:id="_mJDOMe4HEeqNGcw2hM7yiA" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mJDOMu4HEeqNGcw2hM7yiA" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_mJDOM-4HEeqNGcw2hM7yiA" name="CheckFacade">
+              <ownedAttribute xmi:id="_ZDZCtO4LEeqNGcw2hM7yiA" name="avionApi" visibility="private" type="_xf05MO4HEeqNGcw2hM7yiA" association="_ZDaQ0O4LEeqNGcw2hM7yiA"/>
+              <ownedAttribute xmi:id="_ZDZpwe4LEeqNGcw2hM7yiA" name="hotelApi" visibility="private" type="_p_6VkO4IEeqNGcw2hM7yiA" association="_ZDa34e4LEeqNGcw2hM7yiA"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZDZpw-4LEeqNGcw2hM7yiA" name="CheckFacade" specification="_ZDX0kO4LEeqNGcw2hM7yiA">
+                <ownedParameter xmi:id="_ZDZpxO4LEeqNGcw2hM7yiA" type="_mJDOM-4HEeqNGcw2hM7yiA" direction="return"/>
+                <language>java</language>
+                <body>avionApi = new AvionApi();
+		hotelApi = new HotelApi();
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZDZpxe4LEeqNGcw2hM7yiA" name="buscar" specification="_ZDYboO4LEeqNGcw2hM7yiA">
+                <ownedParameter xmi:id="_ZDZpxu4LEeqNGcw2hM7yiA" name="fechaIda">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ZDZpx-4LEeqNGcw2hM7yiA" name="fechaVuelta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ZDZpyO4LEeqNGcw2hM7yiA" name="origen">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ZDZpye4LEeqNGcw2hM7yiA" name="destino">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>avionApi.buscarVuelos (fechaIda, fechaVuelta, origen, destino);
+		hotelApi.buscarHoteles(fechaIda, fechaVuelta, destino);
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_ZDX0kO4LEeqNGcw2hM7yiA" name="CheckFacade" method="_ZDZpw-4LEeqNGcw2hM7yiA">
+                <eAnnotations xmi:id="_ZDX0ku4LEeqNGcw2hM7yiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_ZDX0k-4LEeqNGcw2hM7yiA" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_ZDX0ke4LEeqNGcw2hM7yiA" type="_mJDOM-4HEeqNGcw2hM7yiA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ZDYboO4LEeqNGcw2hM7yiA" name="buscar" method="_ZDZpxe4LEeqNGcw2hM7yiA">
+                <ownedParameter xmi:id="_ZDZCsO4LEeqNGcw2hM7yiA" name="fechaIda">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ZDZCse4LEeqNGcw2hM7yiA" name="fechaVuelta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ZDZCsu4LEeqNGcw2hM7yiA" name="origen">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ZDZCs-4LEeqNGcw2hM7yiA" name="destino">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ZDaQ0O4LEeqNGcw2hM7yiA" name="" memberEnd="_ZDaQ0e4LEeqNGcw2hM7yiA _ZDZCtO4LEeqNGcw2hM7yiA">
+              <ownedEnd xmi:id="_ZDaQ0e4LEeqNGcw2hM7yiA" name="" type="_mJDOM-4HEeqNGcw2hM7yiA" association="_ZDaQ0O4LEeqNGcw2hM7yiA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ZDa34e4LEeqNGcw2hM7yiA" name="" memberEnd="_ZDa34u4LEeqNGcw2hM7yiA _ZDZpwe4LEeqNGcw2hM7yiA">
+              <ownedEnd xmi:id="_ZDa34u4LEeqNGcw2hM7yiA" name="" type="_mJDOM-4HEeqNGcw2hM7yiA" association="_ZDa34e4LEeqNGcw2hM7yiA"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_IzcRAO4FEeqNGcw2hM7yiA">
+      <eAnnotations xmi:id="_IzcRAe4FEeqNGcw2hM7yiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_IzcRAu4FEeqNGcw2hM7yiA" base_Package="_ItI0sO4FEeqNGcw2hM7yiA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZDZpwO4LEeqNGcw2hM7yiA" base_Element="_ZDZCtO4LEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZDZpwu4LEeqNGcw2hM7yiA" base_Element="_ZDZpwe4LEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Reference xmi:id="_ZDa34O4LEeqNGcw2hM7yiA" base_Element="_ZDaQ0O4LEeqNGcw2hM7yiA"/>
+  <UMLLabProfile:Reference xmi:id="_ZDa34-4LEeqNGcw2hM7yiA" base_Element="_ZDa34e4LEeqNGcw2hM7yiA"/>
+</xmi:XMI>

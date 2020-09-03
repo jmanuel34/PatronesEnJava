@@ -13,7 +13,7 @@ public class CuentaAHImpl implements ICuenta {
 	}
 
 	@Override
-	public ICuenta clone() {
+	public ICuenta clonar() {
 		CuentaAHImpl cuenta = null;
 
 		try {

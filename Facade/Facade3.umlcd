@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_840N4O4LEeqNGcw2hM7yiA">
+  <modelElement href="Facade3.uml#_9A7oEO4LEeqNGcw2hM7yiA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9DGyUO4LEeqNGcw2hM7yiA" sourceAnchor="137.0,0.0" targetAnchor="513.0,52.0" target="_9DZGMO4LEeqNGcw2hM7yiA" source="_9DHZae4LEeqNGcw2hM7yiA">
+    <modelElement href="Facade3.uml#_9BEyDu4LEeqNGcw2hM7yiA"/>
+    <stereotypes xmi:id="_9DGyUe4LEeqNGcw2hM7yiA" name="Reference">
+      <modelElement href="Facade3.uml#_9BGAIO4LEeqNGcw2hM7yiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9DGyUu4LEeqNGcw2hM7yiA" text="">
+      <visualProperties xmi:id="_9Vneou4LEeqNGcw2hM7yiA" position="-83.0,-32.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_9DGyU-4LEeqNGcw2hM7yiA" aggregationKind="NONE" name="">
+      <modelElement href="Facade3.uml#_9BEyD-4LEeqNGcw2hM7yiA"/>
+      <visualProperties xmi:id="_9Vneoe4LEeqNGcw2hM7yiA" position="-16.0,-58.0"/>
+      <visibility xmi:id="_9DGyVO4LEeqNGcw2hM7yiA" label="+"/>
+      <cardinality xmi:id="_9DGyVe4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9DGyVu4LEeqNGcw2hM7yiA" aggregationKind="NONE" name="avionApi" navigable="true">
+      <modelElement href="Facade3.uml#_9BDj4O4LEeqNGcw2hM7yiA"/>
+      <visualProperties xmi:id="_9Vneo-4LEeqNGcw2hM7yiA" position="2.0,8.0"/>
+      <visibility xmi:id="_9DGyV-4LEeqNGcw2hM7yiA" label="-"/>
+      <cardinality xmi:id="_9DGyWO4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9DHZYO4LEeqNGcw2hM7yiA" sourceAnchor="478.0,0.0" targetAnchor="67.0,52.0" target="_9DKcsO4LEeqNGcw2hM7yiA" source="_9DHZae4LEeqNGcw2hM7yiA">
+    <modelElement href="Facade3.uml#_9BGAIe4LEeqNGcw2hM7yiA"/>
+    <stereotypes xmi:id="_9DHZYe4LEeqNGcw2hM7yiA" name="Reference">
+      <modelElement href="Facade3.uml#_9BGnMO4LEeqNGcw2hM7yiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9DHZYu4LEeqNGcw2hM7yiA" text="">
+      <visualProperties xmi:id="_9VoFse4LEeqNGcw2hM7yiA" position="-83.0,-33.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_9DHZY-4LEeqNGcw2hM7yiA" aggregationKind="NONE" name="">
+      <modelElement href="Facade3.uml#_9BGAIu4LEeqNGcw2hM7yiA"/>
+      <visualProperties xmi:id="_9VoFsO4LEeqNGcw2hM7yiA" position="-16.0,-58.66666666666666"/>
+      <visibility xmi:id="_9DHZZO4LEeqNGcw2hM7yiA" label="+"/>
+      <cardinality xmi:id="_9DHZZe4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9DHZZu4LEeqNGcw2hM7yiA" aggregationKind="NONE" name="hotelApi" navigable="true">
+      <modelElement href="Facade3.uml#_9BEK8e4LEeqNGcw2hM7yiA"/>
+      <visualProperties xmi:id="_9VoFsu4LEeqNGcw2hM7yiA" position="2.0,9.333333333333343"/>
+      <visibility xmi:id="_9DHZZ-4LEeqNGcw2hM7yiA" label="-"/>
+      <cardinality xmi:id="_9DHZaO4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9DZGMO4LEeqNGcw2hM7yiA" name="AvionApi" associationsIn="_9DGyUO4LEeqNGcw2hM7yiA">
+    <modelElement href="Facade3.uml#_9A_5gO4LEeqNGcw2hM7yiA"/>
+    <visualProperties xmi:id="_9DZGMe4LEeqNGcw2hM7yiA" position="-942.0,65.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9DZGMu4LEeqNGcw2hM7yiA" label="+"/>
+    <operations xmi:id="_9DZGM-4LEeqNGcw2hM7yiA" name="buscarVuelos">
+      <modelElement href="Facade3.uml#_9BAgkO4LEeqNGcw2hM7yiA"/>
+      <visibility xmi:id="_9DZGNO4LEeqNGcw2hM7yiA" label="+"/>
+      <cardinality xmi:id="_9DZGNe4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9DZGNu4LEeqNGcw2hM7yiA" name="fechaIda">
+        <modelElement href="Facade3.uml#_9BAgke4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DZGN-4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DZGOO4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DZGOe4LEeqNGcw2hM7yiA" name="fechaVuelta">
+        <modelElement href="Facade3.uml#_9BAgku4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DZGOu4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DZGO-4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DZGPO4LEeqNGcw2hM7yiA" name="origen">
+        <modelElement href="Facade3.uml#_9BAgk-4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DZGPe4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DZGPu4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DZGP-4LEeqNGcw2hM7yiA" name="destino">
+        <modelElement href="Facade3.uml#_9BAglO4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DZGQO4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DZGQe4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9DHZae4LEeqNGcw2hM7yiA" name="CheckFacade" associationsOut="_9DGyUO4LEeqNGcw2hM7yiA _9DHZYO4LEeqNGcw2hM7yiA">
+    <modelElement href="Facade3.uml#_9A-rYu4LEeqNGcw2hM7yiA"/>
+    <visualProperties xmi:id="_9DHZau4LEeqNGcw2hM7yiA" position="-566.0,183.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9DHZa-4LEeqNGcw2hM7yiA" label="+"/>
+    <attributes xmi:id="_9DHZbO4LEeqNGcw2hM7yiA" name="avionApi">
+      <modelElement href="Facade3.uml#_9BDj4O4LEeqNGcw2hM7yiA"/>
+      <stereotypes xmi:id="_9DHZbe4LEeqNGcw2hM7yiA" name="LegacyStyledElement">
+        <modelElement href="Facade3.uml#_9BEK8O4LEeqNGcw2hM7yiA"/>
+      </stereotypes>
+      <visibility xmi:id="_9DHZbu4LEeqNGcw2hM7yiA" label="-"/>
+      <cardinality xmi:id="_9DHZb-4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+      <type xmi:id="_9DHZcO4LEeqNGcw2hM7yiA" name="AvionApi">
+        <modelElement href="Facade3.uml#_9A_5gO4LEeqNGcw2hM7yiA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9DHZce4LEeqNGcw2hM7yiA" name="hotelApi">
+      <modelElement href="Facade3.uml#_9BEK8e4LEeqNGcw2hM7yiA"/>
+      <stereotypes xmi:id="_9DHZcu4LEeqNGcw2hM7yiA" name="LegacyStyledElement">
+        <modelElement href="Facade3.uml#_9BEK8u4LEeqNGcw2hM7yiA"/>
+      </stereotypes>
+      <visibility xmi:id="_9DHZc-4LEeqNGcw2hM7yiA" label="-"/>
+      <cardinality xmi:id="_9DHZdO4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+      <type xmi:id="_9DHZde4LEeqNGcw2hM7yiA" name="HotelApi">
+        <modelElement href="Facade3.uml#_9BBHoO4LEeqNGcw2hM7yiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_9DHZdu4LEeqNGcw2hM7yiA" name="CheckFacade">
+      <modelElement href="Facade3.uml#_9A_ScO4LEeqNGcw2hM7yiA"/>
+      <keywords xmi:id="_9DHZd-4LEeqNGcw2hM7yiA" keyword="create"/>
+      <visibility xmi:id="_9DHZeO4LEeqNGcw2hM7yiA" label="+"/>
+      <cardinality xmi:id="_9DHZee4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9DHZeu4LEeqNGcw2hM7yiA">
+        <modelElement href="Facade3.uml#_9A_Sc-4LEeqNGcw2hM7yiA"/>
+        <type xmi:id="_9DHZe-4LEeqNGcw2hM7yiA" name="CheckFacade">
+          <modelElement href="Facade3.uml#_9A-rYu4LEeqNGcw2hM7yiA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9DHZfO4LEeqNGcw2hM7yiA" name="buscar">
+      <modelElement href="Facade3.uml#_9A_SdO4LEeqNGcw2hM7yiA"/>
+      <visibility xmi:id="_9DHZfe4LEeqNGcw2hM7yiA" label="+"/>
+      <cardinality xmi:id="_9DHZfu4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9DHZf-4LEeqNGcw2hM7yiA" name="fechaIda">
+        <modelElement href="Facade3.uml#_9A_Sde4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DHZgO4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DHZge4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DHZgu4LEeqNGcw2hM7yiA" name="fechaVuelta">
+        <modelElement href="Facade3.uml#_9A_Sdu4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DHZg-4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DHZhO4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DHZhe4LEeqNGcw2hM7yiA" name="origen">
+        <modelElement href="Facade3.uml#_9A_Sd-4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DHZhu4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DHZh-4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DHZiO4LEeqNGcw2hM7yiA" name="destino">
+        <modelElement href="Facade3.uml#_9A_SeO4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DHZie4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DHZiu4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9DCg4O4LEeqNGcw2hM7yiA" name="App">
+    <modelElement href="Facade3.uml#_9A9dQO4LEeqNGcw2hM7yiA"/>
+    <visualProperties xmi:id="_9DCg4e4LEeqNGcw2hM7yiA" position="-393.0,56.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9DCg4u4LEeqNGcw2hM7yiA" label="+"/>
+    <operations xmi:id="_9DCg4-4LEeqNGcw2hM7yiA" name="main" staticOperation="true">
+      <modelElement href="Facade3.uml#_9A-EWe4LEeqNGcw2hM7yiA"/>
+      <visibility xmi:id="_9DCg5O4LEeqNGcw2hM7yiA" label="+"/>
+      <cardinality xmi:id="_9DCg5e4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9DCg5u4LEeqNGcw2hM7yiA" name="args">
+        <modelElement href="Facade3.uml#_9A-rYO4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DCg5-4LEeqNGcw2hM7yiA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_9DCg6O4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9DKcsO4LEeqNGcw2hM7yiA" name="HotelApi" associationsIn="_9DHZYO4LEeqNGcw2hM7yiA">
+    <modelElement href="Facade3.uml#_9BBHoO4LEeqNGcw2hM7yiA"/>
+    <visualProperties xmi:id="_9DKcse4LEeqNGcw2hM7yiA" position="-155.0,63.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9DKcsu4LEeqNGcw2hM7yiA" label="+"/>
+    <operations xmi:id="_9DKcs-4LEeqNGcw2hM7yiA" name="buscarHoteles">
+      <modelElement href="Facade3.uml#_9BBHoe4LEeqNGcw2hM7yiA"/>
+      <visibility xmi:id="_9DKctO4LEeqNGcw2hM7yiA" label="+"/>
+      <cardinality xmi:id="_9DKcte4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9DKctu4LEeqNGcw2hM7yiA" name="fechaEntrada">
+        <modelElement href="Facade3.uml#_9BBHou4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DKct-4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DKcuO4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DKcue4LEeqNGcw2hM7yiA" name="fechaSalida">
+        <modelElement href="Facade3.uml#_9BBHo-4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DKcuu4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DKcu-4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9DKcvO4LEeqNGcw2hM7yiA" name="localidad">
+        <modelElement href="Facade3.uml#_9BBHpO4LEeqNGcw2hM7yiA"/>
+        <cardinality xmi:id="_9DKcve4LEeqNGcw2hM7yiA" label="1" max="1" min="1"/>
+        <type xmi:id="_9DKcvu4LEeqNGcw2hM7yiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
