@@ -7,6 +7,13 @@
         <details xmi:id="_Izc4EO4FEeqNGcw2hM7yiA" key="observedFolders" value="/Facade/src"/>
         <details xmi:id="_O40T0O4FEeqNGcw2hM7yiA" key="AssociatedSourceCode" value="/Facade/src/com/avilis/patrones/facade/App.java;2706855980/1;/Facade/src/com/avilis/patrones/facade/CheckFacade.java;2106107542/1;/Facade/src/com/avilis/patrones/facade/api/AvionApi.java;3868830245/1;/Facade/src/com/avilis/patrones/facade/api/HotelApi.java;3509399605/1;"/>
       </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_mgVjcO4gEeqNGcw2hM7yiA" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_mgWKgO4gEeqNGcw2hM7yiA" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_mgWKge4gEeqNGcw2hM7yiA" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_mgWKgu4gEeqNGcw2hM7yiA" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+          <details xmi:id="_mgWKg-4gEeqNGcw2hM7yiA" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+        </contents>
+      </contents>
     </eAnnotations>
     <elementImport xmi:id="_Oz-QEe4FEeqNGcw2hM7yiA">
       <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
